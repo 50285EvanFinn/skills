@@ -85,7 +85,7 @@ export async function fetchRepoTree(
   ref?: string,
   token?: string | null
 ): Promise<RepoTree | null> {
-  const branches = ref ? [ref] : ['main', 'master'];
+  const branches = ref ? [ref] : ['HEAD', 'main', 'master'];
 
   for (const branch of branches) {
     try {
