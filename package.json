@@ -42,9 +42,9 @@
     "url": "https://github.com/my-username/skills.git"
   },
   "bugs": {
-    "url": "https://github.com/vercel-labs/skills/issues"
+    "url": "https://github.com/my-username/skills/issues"
   },
-  "homepage": "https://github.com/vercel-labs/skills#readme",
+  "homepage": "https://github.com/my-username/skills#readme",
   "dependencies": {
     "zod": "^3.22.4"
   },
